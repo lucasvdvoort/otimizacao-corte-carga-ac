@@ -371,7 +371,7 @@ def criar_graficos(x_pre, problema_pre, x_pos, problema_pos, pasta):
 
     # Figura 2: redespacho de P e Q dos cinco dispositivos de geracao.
     ger_barras = GERADORES[:, 0].astype(int)
-    fig, eixos = plt.subplots(2, 1, figsize=(7.5, 6), sharex=True)
+    fig, eixos = plt.subplots(1, 2, figsize=(9, 3.6))
     for ax, anterior, posterior, unidade, titulo in (
         (eixos[0], pg_pre, pg, "MW", "Geracao ativa"),
         (eixos[1], qg_pre, qg, "MVAr", "Geracao reativa"),
@@ -380,11 +380,10 @@ def criar_graficos(x_pre, problema_pre, x_pos, problema_pos, pasta):
                color="#b8c0c5", label="Antes")
         ax.bar(np.arange(N_QG) + .19, posterior * BASE_MVA, width=.38,
                color="#287d8e", label="Depois")
-        ax.set(ylabel=unidade, title=titulo)
+        ax.set(ylabel=unidade, title=titulo, xlabel="Barra do gerador")
+        ax.set_xticks(np.arange(N_QG), [str(i) for i in ger_barras])
         ax.grid(axis="y", alpha=.25)
     eixos[0].legend(frameon=False, ncol=2)
-    eixos[1].set_xticks(np.arange(N_QG), [str(i) for i in ger_barras])
-    eixos[1].set_xlabel("Barra do gerador")
     fig.suptitle("Redespacho após a contingencia")
     fig.tight_layout()
     fig.savefig(pasta / "02_geracao_antes_depois.png", dpi=250)

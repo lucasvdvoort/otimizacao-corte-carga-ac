@@ -1,0 +1,417 @@
+{
+  "fonte": "PGLib-OPF v23.07, pglib_opf_case14_ieee.m, caso base",
+  "base_mva": 100.0,
+  "ramos_fora": [
+    [
+      1,
+      2
+    ]
+  ],
+  "demanda_total_mw": 259.0,
+  "fatores_prioridade_por_barra": [
+    1.0,
+    1.01,
+    1.05,
+    1.015,
+    1.01,
+    1.01,
+    1.0,
+    1.0,
+    1.02,
+    1.02,
+    1.02,
+    1.01,
+    1.01,
+    1.02
+  ],
+  "pre_contingencia": {
+    "tempo_s": 0.03312449999793898,
+    "checks": {
+      "max_balanco_p_pu": 5.084821452783217e-14,
+      "max_balanco_q_pu": 1.43607348235264e-13,
+      "max_limite_variavel_pu": 0.0,
+      "max_limite_ramo_pu": 0.0,
+      "max_limite_angular_rad": 0.0,
+      "corte_mw": 0.0,
+      "objetivo_ponderado_pu": 0.0,
+      "geracao_mw": 272.2372720354113,
+      "perdas_mw": 13.237272035408823,
+      "demanda_atendida_mw": 259.0,
+      "erro_balanco_total_p_pu": 2.4851232183209504e-14,
+      "v_min_pu": 0.9791976495517581,
+      "v_max_pu": 1.0488340079209304,
+      "barras_desenergizadas": [],
+      "qg_mvar": [
+        10.0,
+        12.94591428264984,
+        30.860242834968847,
+        16.48028767242481,
+        15.101783735847945
+      ]
+    },
+    "corte_por_barra_mw": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pg_por_gerador_mw": [
+      213.24625828483755,
+      58.99101375057373,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qg_por_gerador_mvar": [
+      10.0,
+      12.94591428264984,
+      30.860242834968847,
+      16.48028767242481,
+      15.101783735847945
+    ],
+    "tensao_por_barra_pu": [
+      1.035212780243409,
+      1.0091761110041009,
+      0.9791976495517581,
+      0.9834700632153734,
+      0.9863262193024288,
+      1.0379684685727912,
+      1.0234708028285886,
+      1.0488340079209304,
+      1.0183293568720595,
+      1.0140994808763608,
+      1.022287228145065,
+      1.022279619906001,
+      1.0169508855131009,
+      0.9990784298961805
+    ]
+  },
+  "pos_contingencia": {
+    "inicio_escolhido": 1,
+    "tempo_s": 0.45699819999572355,
+    "checks": {
+      "max_balanco_p_pu": 9.107763154769799e-12,
+      "max_balanco_q_pu": 8.349071434210487e-12,
+      "max_limite_variavel_pu": 0.0,
+      "max_limite_ramo_pu": 3.3995029014022293e-13,
+      "max_limite_angular_rad": 0.0,
+      "corte_mw": 82.28590044895209,
+      "objetivo_ponderado_pu": 0.8458763600427905,
+      "geracao_mw": 186.94268448863048,
+      "perdas_mw": 10.228584938572247,
+      "demanda_atendida_mw": 176.71409955104792,
+      "erro_balanco_total_p_pu": 9.896936603581707e-12,
+      "v_min_pu": 1.0162977879805164,
+      "v_max_pu": 1.06,
+      "barras_desenergizadas": [],
+      "qg_mvar": [
+        3.8300764811501145,
+        29.999999999999893,
+        22.4505776608561,
+        1.3427377162772904,
+        5.717823950470293
+      ]
+    },
+    "corte_percentual": 31.770617933958334,
+    "objetivo_ponderado_pu": 0.8458763600427905,
+    "corte_por_barra_mw": [
+      0.0,
+      0.4327872998716886,
+      29.395413463343186,
+      26.608517739424393,
+      0.0,
+      2.8696576465128725e-15,
+      0.0,
+      0.0,
+      2.0700571280502398e-14,
+      5.6200760860740155,
+      2.31224194863214e-15,
+      0.97707792522331,
+      7.870361660428331,
+      11.38166627458713
+    ],
+    "pg_por_gerador_mw": [
+      127.94268448863046,
+      59.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "qg_por_gerador_mvar": [
+      3.8300764811501145,
+      29.999999999999893,
+      22.4505776608561,
+      1.3427377162772904,
+      5.717823950470293
+    ],
+    "tensao_por_barra_pu": [
+      1.06,
+      1.0351384873613372,
+      1.0167947553733903,
+      1.0172806608564178,
+      1.0162977879805164,
+      1.06,
+      1.0504981633124706,
+      1.06,
+      1.0505526716471987,
+      1.0485792266263476,
+      1.0507566675376931,
+      1.0509185619602806,
+      1.0514436675576253,
+      1.046712123800102
+    ],
+    "angulo_por_barra_graus": [
+      0.0,
+      -16.360132926977585,
+      -20.226404974958122,
+      -17.02889960102862,
+      -15.164208465058017,
+      -19.162626946862343,
+      -19.116673951942584,
+      -19.11667395194259,
+      -20.20393594854595,
+      -20.159476500075613,
+      -19.801228531396937,
+      -19.71056984312772,
+      -19.675201436557238,
+      -20.207553438196072
+    ],
+    "ramos": [
+      {
+        "de": 1,
+        "para": 5,
+        "sf_mva": 128.000000000034,
+        "st_mva": 122.31828551586712,
+        "carregamento_percentual": 100.00000000002656
+      },
+      {
+        "de": 2,
+        "para": 3,
+        "sf_mva": 36.36417335881328,
+        "st_mva": 35.83667375094884,
+        "carregamento_percentual": 25.078740247457436
+      },
+      {
+        "de": 2,
+        "para": 4,
+        "sf_mva": 10.955722820634973,
+        "st_mva": 12.930730281287007,
+        "carregamento_percentual": 8.184006507143675
+      },
+      {
+        "de": 2,
+        "para": 5,
+        "sf_mva": 14.556810487390301,
+        "st_mva": 17.39470342490261,
+        "carregamento_percentual": 10.80416361795193
+      },
+      {
+        "de": 3,
+        "para": 4,
+        "sf_mva": 31.167643957752844,
+        "st_mva": 31.65505767168575,
+        "carregamento_percentual": 19.784411044803594
+      },
+      {
+        "de": 4,
+        "para": 5,
+        "sf_mva": 76.23366987324029,
+        "st_mva": 76.16001467735191,
+        "carregamento_percentual": 11.480974378500044
+      },
+      {
+        "de": 4,
+        "para": 7,
+        "sf_mva": 19.629797806487144,
+        "st_mva": 19.82481713651135,
+        "carregamento_percentual": 14.06015399752578
+      },
+      {
+        "de": 4,
+        "para": 9,
+        "sf_mva": 10.98432812515914,
+        "st_mva": 10.99193921146551,
+        "carregamento_percentual": 20.73950794616134
+      },
+      {
+        "de": 5,
+        "para": 6,
+        "sf_mva": 35.02851859553429,
+        "st_mva": 34.050427443775654,
+        "carregamento_percentual": 29.93890478250794
+      },
+      {
+        "de": 6,
+        "para": 11,
+        "sf_mva": 7.194456200943547,
+        "st_mva": 7.131719643820126,
+        "carregamento_percentual": 5.368997164883243
+      },
+      {
+        "de": 6,
+        "para": 12,
+        "sf_mva": 5.0712105340811355,
+        "st_mva": 5.027763473466389,
+        "carregamento_percentual": 4.876163975078015
+      },
+      {
+        "de": 6,
+        "para": 13,
+        "sf_mva": 9.245963204792663,
+        "st_mva": 9.171329681273633,
+        "carregamento_percentual": 4.599981693926698
+      },
+      {
+        "de": 7,
+        "para": 8,
+        "sf_mva": 5.666569394461931,
+        "st_mva": 5.717823950486046,
+        "carregamento_percentual": 3.4238466769377527
+      },
+      {
+        "de": 7,
+        "para": 9,
+        "sf_mva": 19.03602999110936,
+        "st_mva": 19.03701773419249,
+        "carregamento_percentual": 7.129969188836138
+      },
+      {
+        "de": 9,
+        "para": 10,
+        "sf_mva": 2.4840408290695746,
+        "st_mva": 2.4793746013419997,
+        "carregamento_percentual": 0.7643202550983307
+      },
+      {
+        "de": 9,
+        "para": 14,
+        "sf_mva": 1.3506459079511177,
+        "st_mva": 1.345708297135433,
+        "carregamento_percentual": 1.36428879591022
+      },
+      {
+        "de": 10,
+        "para": 11,
+        "sf_mva": 3.4716050508694787,
+        "st_mva": 3.4788140577559847,
+        "carregamento_percentual": 2.467244012592897
+      },
+      {
+        "de": 12,
+        "para": 13,
+        "sf_mva": 0.29445434056894104,
+        "st_mva": 0.2946014686414596,
+        "carregamento_percentual": 0.29757724105197936
+      },
+      {
+        "de": 13,
+        "para": 14,
+        "sf_mva": 2.938209245562882,
+        "st_mva": 2.9249871719101557,
+        "carregamento_percentual": 3.8660647967932658
+      }
+    ]
+  },
+  "tentativas_pre": [
+    {
+      "inicio": 1,
+      "success": true,
+      "message": "Optimization terminated successfully",
+      "tempo_s": 0.03312449999793898,
+      "checks": {
+        "max_balanco_p_pu": 5.084821452783217e-14,
+        "max_balanco_q_pu": 1.43607348235264e-13,
+        "max_limite_variavel_pu": 0.0,
+        "max_limite_ramo_pu": 0.0,
+        "max_limite_angular_rad": 0.0,
+        "corte_mw": 0.0,
+        "objetivo_ponderado_pu": 0.0,
+        "geracao_mw": 272.2372720354113,
+        "perdas_mw": 13.237272035408823,
+        "demanda_atendida_mw": 259.0,
+        "erro_balanco_total_p_pu": 2.4851232183209504e-14,
+        "v_min_pu": 0.9791976495517581,
+        "v_max_pu": 1.0488340079209304,
+        "barras_desenergizadas": [],
+        "qg_mvar": [
+          10.0,
+          12.94591428264984,
+          30.860242834968847,
+          16.48028767242481,
+          15.101783735847945
+        ]
+      }
+    }
+  ],
+  "tentativas_pos": [
+    {
+      "inicio": 1,
+      "success": true,
+      "message": "Optimization terminated successfully",
+      "tempo_s": 0.45699819999572355,
+      "checks": {
+        "max_balanco_p_pu": 9.107763154769799e-12,
+        "max_balanco_q_pu": 8.349071434210487e-12,
+        "max_limite_variavel_pu": 0.0,
+        "max_limite_ramo_pu": 3.3995029014022293e-13,
+        "max_limite_angular_rad": 0.0,
+        "corte_mw": 82.28590044895209,
+        "objetivo_ponderado_pu": 0.8458763600427905,
+        "geracao_mw": 186.94268448863048,
+        "perdas_mw": 10.228584938572247,
+        "demanda_atendida_mw": 176.71409955104792,
+        "erro_balanco_total_p_pu": 9.896936603581707e-12,
+        "v_min_pu": 1.0162977879805164,
+        "v_max_pu": 1.06,
+        "barras_desenergizadas": [],
+        "qg_mvar": [
+          3.8300764811501145,
+          29.999999999999893,
+          22.4505776608561,
+          1.3427377162772904,
+          5.717823950470293
+        ]
+      }
+    },
+    {
+      "inicio": 2,
+      "success": true,
+      "message": "Optimization terminated successfully",
+      "tempo_s": 0.4823649000027217,
+      "checks": {
+        "max_balanco_p_pu": 1.4566195472021093e-12,
+        "max_balanco_q_pu": 8.30606416979407e-13,
+        "max_limite_variavel_pu": 0.0,
+        "max_limite_ramo_pu": 1.2145839889399213e-13,
+        "max_limite_angular_rad": 0.0,
+        "corte_mw": 82.2859049738001,
+        "objetivo_ponderado_pu": 0.8458763600516799,
+        "geracao_mw": 186.9426863566282,
+        "perdas_mw": 10.228591330526147,
+        "demanda_atendida_mw": 176.7140950261999,
+        "erro_balanco_total_p_pu": 9.78594982825598e-13,
+        "v_min_pu": 1.0162979231395888,
+        "v_max_pu": 1.06,
+        "barras_desenergizadas": [],
+        "qg_mvar": [
+          3.830014079955055,
+          29.999999999999915,
+          22.450827022248852,
+          1.342699711874204,
+          5.717782854907434
+        ]
+      }
+    }
+  ],
+  "nota": "PNL nao convexa: melhor solucao local factivel observada, sem garantia global."
+}
